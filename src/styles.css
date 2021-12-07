@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --size: min(100vw, 100vh);
+}
+
+body {
+  background-color: black;
+}
+
+#board {
+  width: var(--size);
+  height: var(--size);
+  background-image: url("../images/board.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.piece {
+  width: 12.5%;
+  height: 12.5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  cursor: grab;
+}
+
+.wk {
+  background-image: url("../images/wk.png");
+}
+
+.wq {
+  background-image: url("../images/wq.png");
+}
+
+.wr {
+  background-image: url("../images/wr.png");
+}
+
+.wn {
+  background-image: url("../images/wn.png");
+}
+
+.wb {
+  background-image: url("../images/wb.png");
+}
+
+.wp {
+  background-image: url("../images/wp.png");
+}
+
+.bk {
+  background-image: url("../images/bk.png");
+}
+
+.bq {
+  background-image: url("../images/bq.png");
+}
+
+.br {
+  background-image: url("../images/br.png");
+}
+
+.bn {
+  background-image: url("../images/bn.png");
+}
+
+.bb {
+  background-image: url("../images/bb.png");
+}
+
+.bp {
+  background-image: url("../images/bp.png");
+}
